@@ -45,5 +45,3 @@ O objetivo do projeto é elaborar um catálogo de filmes acessível e eficiente,
 
 
 
-
-
