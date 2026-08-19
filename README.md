@@ -52,7 +52,17 @@ O objetivo do projeto é elaborar um catálogo de filmes acessível e eficiente,
 
 ![](diagrama-catalogo-de-filmes.jpg)
 
+
 ## Fluxograma Cadastro de Filmes
 
 ![](fluxograma-cadastrar-filme.png.jpg)
 
+
+## Fluxograma Editar Filmes
+
+![](fluxograma-editar-filmes.jpg)
+
+
+## Fluxograma Apagar Filmes
+
+![](fluxograma-apagar-filme.jpg)
