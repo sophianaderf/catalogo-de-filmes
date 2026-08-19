@@ -42,6 +42,9 @@ O objetivo do projeto é elaborar um catálogo de filmes acessível e eficiente,
 
 **RNF05** Armazenamento de Imagens - O sistema deve armazenar todas as imagens que foram cadastradas pelo usuário.
 
+## Visão Geral do Projeto (Diagrama)
+![](visao-geral.png) 
+
 
 
 
