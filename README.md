@@ -46,6 +46,7 @@ O objetivo do projeto é elaborar um catálogo de filmes acessível e eficiente,
 ![](visao-geral.png) 
 
 
+
 ## Diagrama Página de Login
 ![](diagrama-catalogo-de-filmes.jpg)
 
