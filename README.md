@@ -66,3 +66,8 @@ O objetivo do projeto é elaborar um catálogo de filmes acessível e eficiente,
 ## Fluxograma Apagar Filmes
 
 ![](fluxograma-apagar-filme.jpg)
+
+
+## Modelo Conceitual
+
+![](modelo-conceitual-catalogo.png)
