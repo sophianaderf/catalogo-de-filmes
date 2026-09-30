@@ -44,32 +44,32 @@ O objetivo do projeto é elaborar um catálogo de filmes acessível e eficiente,
 
 ## Visão Geral do Projeto (Diagrama)
 
-![](img/visao-geral.png) 
+![](documentos/img/visao-geral.png) 
 
 
 
 ## Fluxograma Página de Login
 
-![](img/diagrama-catalogo-de-filmes.jpg)
+![](documentos/img/diagrama-catalogo-de-filmes.jpg)
 
 
 ## Fluxograma Cadastro de Filmes
 
-![](img/fluxograma-cadastrar-filme.png.jpg)
+![](documentos/img/fluxograma-cadastrar-filme.png.jpg)
 
 
 ## Fluxograma Editar Filmes
 
-![](img/fluxograma-editar-filmes.jpg)
+![](documentos/img/fluxograma-editar-filmes.jpg)
 
 
 ## Fluxograma Apagar Filmes
 
-![](img/fluxograma-apagar-filme.jpg)
+![](documentos/img/fluxograma-apagar-filme.jpg)
 
 
 ## Modelo Conceitual
 
-![](img/modelo-conceitual-catalogo.png)
+![](documentos/img/modelo-conceitual-catalogo.png)
 
 ## Protótipo de tela Visão geral
