@@ -1,4 +1,4 @@
-SELECT * FROM usuario
+
 
 INSERT INTO usuario
 (id, nome, senha, email, criado_em, atualizado_em)
@@ -9,7 +9,7 @@ VALUES
 (4, 'Matheus Oliveira', 'matheus123', 'matheus@email.com', now(), NULL),
 (5, 'Ana Beatriz', 'ana12345', 'ana@email.com', now(), NULL);
 
-SELECT * FROM filmes
+
 
 INSERT INTO filmes
 (usuario_id, titulo, ano_lançamento, genero, nota, capa_url, criado_em, atualizado_em)

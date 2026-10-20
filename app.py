@@ -18,19 +18,38 @@ def buscar_usuario():
     return usuario
 
 
-@app.route('/produto', methods=['POST'])
+@app.route('/filme', methods=['POST'])
 def cadastrar_produto():
     dados = request.get_json()
 
     if not dados:
         return jsonify({"erro": "Dados inválidos"}), 400
 
-    print(f"Novo produto: {dados}")
+    print(f"Novo filme: {dados}")
+
+    conn = criar_conexao()
+    cursor = conn.cursor()
+
+    cursor.execute(
+        '''
+            INSERT INTO filmes(usuario_id, titulo, ano_lancamento, genero, nota,
+            capa_url)
+            VALUES (%s, %s, %s, %s, %s, %s)
+            RETURNING id;
+        ''',
+        (dados['usuario_id'], dados['titulo'], dados['ano_lancamento'], dados['genero'],
+         dados['nota'], dados['capa_url'])
+    )
+
+    novo_id = cursor.fetchone()[0]
+    conn.commit()
+
+    conn.close()
 
     return jsonify(
         {
-            "message": "Produto salvo com sucesso!",
-            "produto-cadastrado": dados
+            "message": "Filme salvo com sucesso!",
+            "filme-id": novo_id
         }
     ), 201
 
