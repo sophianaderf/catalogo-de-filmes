@@ -11,4 +11,5 @@ def criar_conexao():
         user=os.environ.get("DB_USER"),
         password=os.environ.get("DB_PASSWORD"),
     )
+
     return conn
