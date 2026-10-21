@@ -21,3 +21,4 @@ CREATE TABLE filmes (
     atualizado_em TIMESTAMP,
     PRIMARY KEY(id)
 );
+
